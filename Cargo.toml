@@ -4,4 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-dreammaker = { git = "https://github.com/spacemaniac/spacemandmm.git", version = "0.1.0" }
+dm = { package = "dreammaker", git = "https://github.com/spacemaniac/spacemandmm.git", version = "0.1.0" }
+dmc = { package = "dreamchecker", git = "https://github.com/spacemaniac/spacemandmm.git" }
+serde = "1.0.219"
