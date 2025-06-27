@@ -1,0 +1,12 @@
+[package]
+name = "dm_auto_refactor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+console = "0.15.11"
+dm = { package = "dreammaker", git = "https://github.com/spacemaniac/spacemandmm.git", version = "0.1.0" }
+dmc = { package = "dreamchecker", git = "https://github.com/spacemaniac/spacemandmm.git" }
+regex = "1.11.1"
+serde = "*"
+serde_json = "*"
