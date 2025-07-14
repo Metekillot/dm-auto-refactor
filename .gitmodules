@@ -1,0 +1,7 @@
+[submodule "crates/sdmm_modified"]
+	path = crates/sdmm_modified
+	url = https://github.com/Metekillot/SpacemanDMM.git
+	branch = auto-refactor-mods
+[submodule "crates/analysis_companion"]
+	path = crates/analysis_companion
+	url = https://github.com/Metekillot/spacemandmm-syntax-analysis-companion.git
